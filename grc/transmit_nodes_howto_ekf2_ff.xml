@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <block>
-  <name>howto_ekf2_ff</name>
+  <name>howto_ekf2_ff_bao</name>
   <key>transmit_nodes_howto_ekf2_ff</key>
-  <category>transmit_nodes</category>
+  <category>transmit_nodes_bao</category>
   <import>import transmit_nodes</import>
-  <make>transmit_nodes.howto_ekf2_ff($sample_rate, $Tm, $initial_freq, $&elts_Q, $&elts_R)</make>
+  <make>transmit_nodes.howto_ekf2_ff($sample_rate, $Tm, $initial_freq, $elts_Q, $elts_R)</make>
   <!-- Make one 'param' node for every Parameter you want settable from the GUI.
        Sub-nodes:
        * name
