@@ -1,0 +1,30 @@
+INCLUDE(FindPkgConfig)
+PKG_CHECK_MODULES(PC_TRANSMIT_NODES transmit_nodes)
+
+FIND_PATH(
+    TRANSMIT_NODES_INCLUDE_DIRS
+    NAMES transmit_nodes/api.h
+    HINTS $ENV{TRANSMIT_NODES_DIR}/include
+        ${PC_TRANSMIT_NODES_INCLUDEDIR}
+    PATHS ${CMAKE_INSTALL_PREFIX}/include
+          /usr/local/include
+          /usr/include
+)
+
+FIND_LIBRARY(
+    TRANSMIT_NODES_LIBRARIES
+    NAMES gnuradio-transmit_nodes
+    HINTS $ENV{TRANSMIT_NODES_DIR}/lib
+        ${PC_TRANSMIT_NODES_LIBDIR}
+    PATHS ${CMAKE_INSTALL_PREFIX}/lib
+          ${CMAKE_INSTALL_PREFIX}/lib64
+          /usr/local/lib
+          /usr/local/lib64
+          /usr/lib
+          /usr/lib64
+)
+
+INCLUDE(FindPackageHandleStandardArgs)
+FIND_PACKAGE_HANDLE_STANDARD_ARGS(TRANSMIT_NODES DEFAULT_MSG TRANSMIT_NODES_LIBRARIES TRANSMIT_NODES_INCLUDE_DIRS)
+MARK_AS_ADVANCED(TRANSMIT_NODES_LIBRARIES TRANSMIT_NODES_INCLUDE_DIRS)
+

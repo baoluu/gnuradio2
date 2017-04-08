@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio TRANSMIT_NODES C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the TRANSMIT_NODES GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1transmit__nodes_1_1howto__bfweight2__cc" kind="class"><name>gr::transmit_nodes::howto_bfweight2_cc</name>
+    <member refid="classgr_1_1transmit__nodes_1_1howto__bfweight2__cc_1ac7d9ff2ff01d8375919ddf0a05c9a9e9" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1transmit__nodes_1_1howto__bfweight2__cc_1acd161f32d9059fcc3aa4a35e99fe6c08" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1transmit__nodes" kind="namespace"><name>gr::transmit_nodes</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1aebfc6827509883592bd837db69f2a368" kind="define"><name>TRANSMIT_NODES_API</name></member>
+  </compound>
+  <compound refid="howto__bfweight2__cc_8h" kind="file"><name>howto_bfweight2_cc.h</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/bao/Documents/gnu-radio/gr-transmit_nodes/include</name>
+  </compound>
+  <compound refid="dir_167642c26452f8cbe8ac46758334c163" kind="dir"><name>/home/bao/Documents/gnu-radio/gr-transmit_nodes/include/transmit_nodes</name>
+  </compound>
+</doxygenindex>
